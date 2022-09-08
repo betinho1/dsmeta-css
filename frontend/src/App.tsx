@@ -2,19 +2,17 @@ import Header from "./components/header"
 import SalesCard from "./components/salescard"
 
 function App() {
-  return(
-<header>
-  <main>
-    <section id="sales">
-      <div className="dsmeta-container">
-        <SalesCard />
-      </div>
+  return (
+    <>
+      <Header />
+      <section id="sales">
+        <div className="dsmeta-container">
+          <SalesCard />
+        </div>
 
-    </section>
-
-  </main>
-</header>
-)
+      </section>
+    </>
+  )
 }
 
 export default App
